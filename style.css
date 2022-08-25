@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    color: #2b2b2b;
+    font-size: 0.8rem;
+}
+.profile{
+    border-radius:50%;
+    width:34px;
+    height:34px;
+    padding:2px;
+}
+.profile:hover{
+    cursor: pointer;
+    border:2px solid rgba(191,191,191,0.8);
+}
+.navbar a{
+    color: #2b2b2b;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.top-nav{
+    display:flex;
+    justify-content: flex-end;
+    margin:10px 0;
+}
+.navbar{
+    width:20%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;  
+}
+.apps:hover{
+    cursor: pointer;
+}
+.logo{
+    max-width:100%;
+    width:25%;
+    height:25%;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+#gsearch{
+    width:600px;
+    height:45px;
+    border-radius:25px;
+    border:1px solid rgba(191,191,191,0.8);
+}
+#gsearch:hover{
+    cursor:text;
+}
+.search-icon{
+    color:#969696;
+}
+.mic-icon{
+    color:#0074d4;
+}
+.mic-icon:hover{
+    cursor:pointer;
+}
+.input-field{
+    width:580px;
+    margin-top:-32px;
+    margin-left:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    margin-top:25px;
+}
+button{
+    width:140px;
+    height:35px;
+    border:0px solid;
+    color:#2b2b2b;
+    background-color: rgba(237,237,237,0.5);
+    margin:5px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor:pointer;
+    border:1px solid #bfbfbf;
+    box-shadow: 0 5px 5px -5px #bfbfbf;
+}
+a:link{
+    text-decoration: none;
+}
+.lang-link{
+    padding:0 5px;
+}
+.lang-link:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color:rgba(191,191,191,0.3);
+    color:rgba(43,43,43,0.8);
+    height:100px;
+    margin-top: 100px;
+    font-size:14px;
+}
+footer a{
+    color:rgba(43,43,43,0.8);
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.country{
+    padding:15px 20px;
+}
+.bottom-nav{
+    padding:15px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-align{
+    width:380px;
+    display: flex;
+    justify-content: space-around;
+}
+.right-align{
+    width:260px;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    border-top:1px solid rgba(191,191,191,0.8);
+}
+p{
+    margin-top:20px;
+}
